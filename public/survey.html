@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/stylesheets/style.css">
+  <title>Survey</title>
+</head>
+<body>
+<h1 id="title">Extracurricular Activity Survey</h1>
+<p id="description">
+  This is a survey to collect data about Extracurricular activities in colleges.
+</p>
+<form id="survey-form">
+  <input type="text" name="name" id="name" required placeholder="Credentials"><br>
+  <input type="text" name="email" id="email" required placeholder="Email"><br>
+  <input type="text" name="age" id="age" required placeholder="Age"> <br>
+  <div id="button-area1">
+    <label id="gender-label">Gender:</label><br>
+    <input type="radio" class="radio-inline" name="gender" value="male"> Male<br>
+    <input type="radio" class="radio-inline" name="gender" value="female"> Female<br>
+    <input type="radio" class="radio-inline" name="gender" value="other"> Other
+  </div>
+  <div id="button-area2">
+    <label id="Question1"> How many hours of spare time do you have per week? :</label><br>
+    <input type="checkbox" class="radio-inline" name="LessThan20" value="LessThan20">Less than 20 hours <br>
+    <input type="checkbox" class="radio-inline" name="20-30" value="20-30"> 20-30 hours  <br>
+    <input type="checkbox" class="radio-inline" name="30-40" value="30-40" > 30-40 hours  <br>
+    <input type="checkbox"  class="radio-inline" name="MoreThan40" value="MoreThan40" > More than 40 hours   <br>
+  </div>
+  <div id="button-area3">
+    <label id="Question2">What do you do with your spare time?:</label><br>
+    <input type="checkbox" name="BrowseInternet" value="BrowseInternet"> Browse internet <br>
+    <input type="checkbox" name="Study2" value="Study"> Study <br>
+    <input type="checkbox" name="MeetFriends" value="MeetFriends" > Meeting friends <br>
+    <input type="checkbox" name="ExtracurricularActivity" value="ExtracurricularActivity" > Extracurricular activity<br>
+    <input type="checkbox" name="Other" value="Other" > Other <br>
+  </div>
+  <div class="container">
+    <button type="button" class="cancelbtn">Submit</button>
+  </div>
+</form>
+</body>
+</html>
